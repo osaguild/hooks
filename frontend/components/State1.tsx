@@ -2,11 +2,11 @@ import { FunctionComponent } from 'react'
 import { Box, Button } from '@mui/material'
 import { useStateCount } from '../hooks/useStateCount'
 
-const Component2: FunctionComponent = () => {
+const State1: FunctionComponent = () => {
   const { count, countUP, countDown } = useStateCount()
   return (
     <Box>
-      Component2 /
+      Component1 /
       count: {count}
       <Button onClick={countUP}>Count Up</Button>
       <Button onClick={countDown}>Count Down</Button>
@@ -14,4 +14,4 @@ const Component2: FunctionComponent = () => {
   )
 }
 
-export default Component2
+export default State1
