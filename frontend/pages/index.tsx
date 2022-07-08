@@ -7,6 +7,9 @@ import Props1 from "../components/Props1"
 import Context1 from "../components/Context1"
 import Reducer1 from "../components/Reducer1"
 import Reducer2 from "../components/Reducer2"
+import Callback1 from "../components/Callback1"
+import Callback2 from "../components/Callback2"
+import Callback3 from "../components/Callback3"
 
 const Home: FunctionComponent = () => {
   return (
@@ -33,6 +36,12 @@ const Home: FunctionComponent = () => {
         <Reducer1 />
         <h3>Reducer2</h3>
         <Reducer2 />
+      </Box>
+      <Box>
+        <h1>useCallback</h1>
+        <Callback1 />
+        <Callback2 />
+        <Callback3 />
       </Box>
     </Box>
   )
