@@ -12,7 +12,7 @@ export const useEffectAlert = () => {
   }
 
   useEffect(() => {
-    alert(`1:${message1}, 2:${message2}`)
+    console.log(`1:${message1}, 2:${message2}`)
   }, [message1])
 
   return { message1, changeMessage1, message2, changeMessage2 }
