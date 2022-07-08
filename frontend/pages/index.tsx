@@ -5,6 +5,8 @@ import State2 from "../components/State2"
 import Effect from "../components/Effect"
 import Props1 from "../components/Props1"
 import Context1 from "../components/Context1"
+import Reducer1 from "../components/Reducer1"
+import Reducer2 from "../components/Reducer2"
 
 const Home: FunctionComponent = () => {
   return (
@@ -24,6 +26,13 @@ const Home: FunctionComponent = () => {
         <Props1 />
         <h3>context version</h3>
         <Context1 />
+      </Box>
+      <Box>
+        <h1>useReducer</h1>
+        <h3>Reducer1</h3>
+        <Reducer1 />
+        <h3>Reducer2</h3>
+        <Reducer2 />
       </Box>
     </Box>
   )
