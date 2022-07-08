@@ -6,20 +6,21 @@ https://ja.reactjs.org/docs/react-api.html#hooks
 https://ja.reactjs.org/docs/hooks-intro.html
 
 ### basic
-- useState
-- useEffect
-- useContext
+- [x] useState
+- [x] useEffect
+- [x] useContext
 ### added
-- useReducer
-- useCallback
-- useMemo
-- useRef
-- useImperativeHandle
-- useLayoutEffect
-- useDebugValue
-- useDeferredValue
-- useTransition
-- useId
+- [x] useReducer
+- [x] useCallback
+- [x] useMemo
+- [ ] useRef
+- [ ] useImperativeHandle
+- [ ] useLayoutEffect
+- [ ] useDebugValue
+- [ ] useDeferredValue
+- [ ] useTransition
+- [ ] useId
+- [ ] useSWR
 ### for library
 - useSyncExternalStore
 - useInsertionEffect
