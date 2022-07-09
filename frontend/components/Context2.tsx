@@ -4,10 +4,12 @@ import Context3 from './Context3'
 import { MessageContext } from '../context/messageContext'
 
 const Context2: FunctionComponent = () => {
-  const { message } = useContext(MessageContext)
+  const { message1, message2 } = useContext(MessageContext)
   return (
     <Box>
-      Context 2 / message: {message}
+      context 2 / message 1: {message1}
+      <br/>
+      context 2 / message 2: {message2}
       <Context3 />
     </Box>
   )

@@ -3,10 +3,12 @@ import { Box } from '@mui/material'
 import { MessageContext } from '../context/messageContext'
 
 const Context3: FunctionComponent = () => {
-  const { message } = useContext(MessageContext)
+  const { message1,message2 } = useContext(MessageContext)
   return (
     <Box>
-      Context 3 / message: {message}
+      context 3 / message 1: {message1}
+      <br/>
+      context 3 / message 2: {message2}
     </Box>
   )
 }
